@@ -45,4 +45,4 @@
 
 ## Run
    > `npm start`
-    will start the server at [http://localhost:3000](url)
+    will start the server at [http://localhost:3000](http://localhost:3000)
