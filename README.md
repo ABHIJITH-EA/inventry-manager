@@ -38,3 +38,11 @@
              2.Warehouse Number
 
              3.QTY
+
+## Install
+   Execute the following command <br>
+   > npm install
+
+## Run
+   > npm start 
+   will start the server at [http://localhost:3000](url)
