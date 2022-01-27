@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <form class="task-form">
+      <h4>Products list</h4>
+      <div class="form-control">
+        <div class="row">
+          <label for="pid">Product id</label>
+          <input
+            id="pid"
+            type="text"
+            name="name"
+            class="task-input pid"
+            placeholder="eg: 1010"
+          />
+        </div>
+        <div class="row">
+          <label for="pname">Product name</label>
+          <input
+          id="pname"
+            type="text"
+            name="name"
+            class="task-input pname"
+            placeholder="e.g. Iphone"
+          />
+        </div>
+        <button type="submit" class="btn submit-btn">Add product</button>
+      </div>
+      <div class="form-alert"></div>
+    </form>
+    <a href="index.html" class="btn back-link">back to home</a>
+    <section class="tasks-container">
+      <p class="loading-text">Loading...</p>
+      <div class="task-header">
+        <span>Product Id</span>
+        <span>Product name</span>
+      </div>
+      <div class="tasks"></div>
+    </section>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/browser-app.js"></script>
+  </body>
+</html>

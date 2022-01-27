@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- main  -->
+    <link rel="stylesheet" href="./css/stock-main.css" />
+
+    <title>Unstock products</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="task-form">
+        <h4>Unstock products</h4>
+        <div class="form-control">
+          <div class="row">
+            <label for="pid">Product id</label>
+            <input
+              id="pid"
+              type="text"
+              name="name"
+              class="task-input pid"
+              placeholder="Product id"
+            />
+          </div>
+          <div class="row">
+            <label for="wname">Number</label>
+            <input
+            id="wname"
+            type="text"
+            name="limit"
+            class="task-input wname"
+            placeholder="Warehouse number"
+            />
+          </div>
+          <div class="row">
+            <label for="qty">Quantity</label>
+            <input
+            id="qty"
+            type="text"
+            name="limit"
+            class="task-input qty"
+            placeholder="Quantity"
+            />
+          </div>
+          <button type="submit" class="btn submit-btn">Unstock</button>
+        </div>
+        <div class="form-alert"></div>
+      </form>
+      <a href="stock.html" class="btn back-link">back to stocks</a>
+    </div>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- js -->
+    <script src="./js/unstock.js"></script>
+  </body>
+</html>
