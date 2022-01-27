@@ -44,5 +44,5 @@
    > npm install
 
 ## Run
-   > `npm start `&nbsp
+   > `npm start`
     will start the server at [http://localhost:3000](url)
